@@ -12,7 +12,7 @@ Dim totalstock As String
     Range("K1").Value = "Percent Change"
     Range("L1").Value = "Total Stock Volume"
 
-Dim last
+ Dim last as long
 last = Cells(Rows.Count, 1).End(xlUp).Row
 
 Dim i
